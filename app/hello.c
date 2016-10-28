@@ -28,6 +28,9 @@ int hello()
 		printf("i run func hello()\n");
 		strcpy(RSPCODE,"lns603");
 		printf("run end hello()\n");
+
+		printf("这是我修改的记录\n");
+
 		EXIT;
 	}
 	int k=1,j=3;
