@@ -7,7 +7,7 @@
 
 void desum()
 {
-	static int sum=10;
+	int sum=10;
 	return ;
 }
 
@@ -24,10 +24,10 @@ void sum2( int *psum )
 
 }
 
+#if 0
 int main()
 { 
 	int i=0;
-	int tmp = 0;
 
 	int a=3;
 	a+=a-=a*a;
@@ -35,3 +35,4 @@ int main()
 
 	return 0;
 }
+#endif
